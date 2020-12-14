@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53E85F202587E176007BB9B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85F1F2587E176007BB9B4 /* AppDelegate.swift */; };
+		53E85F222587E176007BB9B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85F212587E176007BB9B4 /* SceneDelegate.swift */; };
+		53E85F242587E176007BB9B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85F232587E176007BB9B4 /* ViewController.swift */; };
+		53E85F272587E176007BB9B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E85F252587E176007BB9B4 /* Main.storyboard */; };
+		53E85F292587E17A007BB9B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E85F282587E17A007BB9B4 /* Assets.xcassets */; };
+		53E85F2C2587E17A007BB9B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E85F2A2587E17A007BB9B4 /* LaunchScreen.storyboard */; };
+		53E85F372587E17A007BB9B4 /* Altran_MobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85F362587E17A007BB9B4 /* Altran_MobileChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53E85F332587E17A007BB9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E85F142587E176007BB9B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E85F1B2587E176007BB9B4;
+			remoteInfo = "Altran-MobileChallenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53E85F1C2587E176007BB9B4 /* Altran-MobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altran-MobileChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E85F1F2587E176007BB9B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53E85F212587E176007BB9B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53E85F232587E176007BB9B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53E85F262587E176007BB9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53E85F282587E17A007BB9B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E85F2B2587E17A007BB9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53E85F2D2587E17A007BB9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E85F322587E17A007BB9B4 /* Altran-MobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altran-MobileChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E85F362587E17A007BB9B4 /* Altran_MobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altran_MobileChallengeUITests.swift; sourceTree = "<group>"; };
+		53E85F382587E17A007BB9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E85F192587E176007BB9B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E85F2F2587E17A007BB9B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E85F132587E176007BB9B4 = {
+			isa = PBXGroup;
+			children = (
+				53E85F1E2587E176007BB9B4 /* Altran-MobileChallenge */,
+				53E85F352587E17A007BB9B4 /* Altran-MobileChallengeUITests */,
+				53E85F1D2587E176007BB9B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E85F1D2587E176007BB9B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E85F1C2587E176007BB9B4 /* Altran-MobileChallenge.app */,
+				53E85F322587E17A007BB9B4 /* Altran-MobileChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E85F1E2587E176007BB9B4 /* Altran-MobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				53E85F442587E244007BB9B4 /* Controller */,
+				53E85F432587E198007BB9B4 /* View-Model */,
+				53E85F422587E18C007BB9B4 /* View */,
+				53E85F412587E186007BB9B4 /* Model */,
+				53E85F1F2587E176007BB9B4 /* AppDelegate.swift */,
+				53E85F212587E176007BB9B4 /* SceneDelegate.swift */,
+				53E85F232587E176007BB9B4 /* ViewController.swift */,
+				53E85F252587E176007BB9B4 /* Main.storyboard */,
+				53E85F282587E17A007BB9B4 /* Assets.xcassets */,
+				53E85F2A2587E17A007BB9B4 /* LaunchScreen.storyboard */,
+				53E85F2D2587E17A007BB9B4 /* Info.plist */,
+			);
+			path = "Altran-MobileChallenge";
+			sourceTree = "<group>";
+		};
+		53E85F352587E17A007BB9B4 /* Altran-MobileChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53E85F362587E17A007BB9B4 /* Altran_MobileChallengeUITests.swift */,
+				53E85F382587E17A007BB9B4 /* Info.plist */,
+			);
+			path = "Altran-MobileChallengeUITests";
+			sourceTree = "<group>";
+		};
+		53E85F412587E186007BB9B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53E85F422587E18C007BB9B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53E85F432587E198007BB9B4 /* View-Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View-Model";
+			sourceTree = "<group>";
+		};
+		53E85F442587E244007BB9B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E85F1B2587E176007BB9B4 /* Altran-MobileChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E85F3B2587E17A007BB9B4 /* Build configuration list for PBXNativeTarget "Altran-MobileChallenge" */;
+			buildPhases = (
+				53E85F182587E176007BB9B4 /* Sources */,
+				53E85F192587E176007BB9B4 /* Frameworks */,
+				53E85F1A2587E176007BB9B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Altran-MobileChallenge";
+			productName = "Altran-MobileChallenge";
+			productReference = 53E85F1C2587E176007BB9B4 /* Altran-MobileChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53E85F312587E17A007BB9B4 /* Altran-MobileChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E85F3E2587E17A007BB9B4 /* Build configuration list for PBXNativeTarget "Altran-MobileChallengeUITests" */;
+			buildPhases = (
+				53E85F2E2587E17A007BB9B4 /* Sources */,
+				53E85F2F2587E17A007BB9B4 /* Frameworks */,
+				53E85F302587E17A007BB9B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E85F342587E17A007BB9B4 /* PBXTargetDependency */,
+			);
+			name = "Altran-MobileChallengeUITests";
+			productName = "Altran-MobileChallengeUITests";
+			productReference = 53E85F322587E17A007BB9B4 /* Altran-MobileChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E85F142587E176007BB9B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Fernanda Castro";
+				TargetAttributes = {
+					53E85F1B2587E176007BB9B4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					53E85F312587E17A007BB9B4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 53E85F1B2587E176007BB9B4;
+					};
+				};
+			};
+			buildConfigurationList = 53E85F172587E176007BB9B4 /* Build configuration list for PBXProject "Altran-MobileChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53E85F132587E176007BB9B4;
+			productRefGroup = 53E85F1D2587E176007BB9B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E85F1B2587E176007BB9B4 /* Altran-MobileChallenge */,
+				53E85F312587E17A007BB9B4 /* Altran-MobileChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E85F1A2587E176007BB9B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E85F2C2587E17A007BB9B4 /* LaunchScreen.storyboard in Resources */,
+				53E85F292587E17A007BB9B4 /* Assets.xcassets in Resources */,
+				53E85F272587E176007BB9B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E85F302587E17A007BB9B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E85F182587E176007BB9B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E85F242587E176007BB9B4 /* ViewController.swift in Sources */,
+				53E85F202587E176007BB9B4 /* AppDelegate.swift in Sources */,
+				53E85F222587E176007BB9B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E85F2E2587E17A007BB9B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E85F372587E17A007BB9B4 /* Altran_MobileChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E85F342587E17A007BB9B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E85F1B2587E176007BB9B4 /* Altran-MobileChallenge */;
+			targetProxy = 53E85F332587E17A007BB9B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53E85F252587E176007BB9B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E85F262587E176007BB9B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53E85F2A2587E17A007BB9B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E85F2B2587E17A007BB9B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E85F392587E17A007BB9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53E85F3A2587E17A007BB9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E85F3C2587E17A007BB9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468B8KF938;
+				INFOPLIST_FILE = "Altran-MobileChallenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "desafioAltran.myapp.Altran-MobileChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53E85F3D2587E17A007BB9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468B8KF938;
+				INFOPLIST_FILE = "Altran-MobileChallenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "desafioAltran.myapp.Altran-MobileChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53E85F3F2587E17A007BB9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468B8KF938;
+				INFOPLIST_FILE = "Altran-MobileChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "desafioAltran.myapp.Altran-MobileChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Altran-MobileChallenge";
+			};
+			name = Debug;
+		};
+		53E85F402587E17A007BB9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 468B8KF938;
+				INFOPLIST_FILE = "Altran-MobileChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "desafioAltran.myapp.Altran-MobileChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Altran-MobileChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E85F172587E176007BB9B4 /* Build configuration list for PBXProject "Altran-MobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E85F392587E17A007BB9B4 /* Debug */,
+				53E85F3A2587E17A007BB9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E85F3B2587E17A007BB9B4 /* Build configuration list for PBXNativeTarget "Altran-MobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E85F3C2587E17A007BB9B4 /* Debug */,
+				53E85F3D2587E17A007BB9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E85F3E2587E17A007BB9B4 /* Build configuration list for PBXNativeTarget "Altran-MobileChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E85F3F2587E17A007BB9B4 /* Debug */,
+				53E85F402587E17A007BB9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E85F142587E176007BB9B4 /* Project object */;
+}
